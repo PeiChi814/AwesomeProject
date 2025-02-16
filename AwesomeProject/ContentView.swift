@@ -29,6 +29,10 @@ struct ContentView: View {
                     .scaledToFit()
                     .foregroundStyle(.red)
             }
+            Text("My first APP with Prof. Gallaugher")
+                .font(.headline)
+                .fontWeight(.light)
+                .foregroundStyle(.gray)
         }
         //New changes made
         .padding()
